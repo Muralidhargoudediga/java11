@@ -1,0 +1,5 @@
+The BufferedReader and Files classes contain a lines() method that reads a file lazily and returns the contents as a stream of strings.
+Each element in the stream represents one line of text from the file.
+The file needs to be closed when you are done with the stream.
+Calling the close() method on the stream will close the underlying file.
+Alternatively, you can create the stream in a try-with-resources statement so the underlying file is closed automatically.
