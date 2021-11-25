@@ -12,4 +12,24 @@ public class Test {
         // More code goes here
         return value;
     }
+
+    public static void main(String[] args) {
+        assert true;
+        System.out.println("Test...");
+        System.out.println(new String() instanceof Object);
+        System.out.println( (int)"SortingSpecs".hashCode() );
+    }
 }
+
+/*
+ UseDialog,
+    DialogTitle,
+    HtmlHeader,
+    Datapath,
+    KeyColumn,
+    ColumnMapping,
+    ColumnLayouts,
+    DialogWidth,
+    DialogHeight,
+    SortingSpecs,
+ */
